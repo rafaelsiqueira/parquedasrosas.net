@@ -67,7 +67,7 @@
 
         border-radius: 50%;
         display: inline-block;
-        background-image: url('../images/icon-comunicado.png');
+        background-image: url('https://github.com/rafaelsiqueira/parquedasrosas.net/blob/be5d136a004fd501dcdfc93e50d4910f994549d2/images/icon-comunicado.png?raw=true');
         background-size: 60%;
         background-repeat: no-repeat;
         background-position: center;
@@ -97,7 +97,7 @@
         height: 170px;
         background-color: rgb(246, 184, 4);
         
-        background-image: url('../images/dialogo-rodape.png');
+        background-image: url('https://github.com/rafaelsiqueira/parquedasrosas.net/blob/be5d136a004fd501dcdfc93e50d4910f994549d2/images/dialogo-rodape.png?raw=true');
         background-size: 100%;
         background-repeat: no-repeat;
         position: relative;
@@ -106,7 +106,7 @@
 
       #rodape2 { 
         width: 100%;
-        height: 300px;
+        height: 460px;
         bottom: 0;
         left: 0;
         z-index: 0;
@@ -129,6 +129,99 @@
       #assinatura ul li {
         margin-top: 3px;
       }
+
+      @media screen and (max-width: 800px) {
+        main {
+          width: 750px;
+          padding: 10px;
+        }
+      }
+
+      @media screen and (max-width: 879px) {
+        main {
+          width: 770px;
+          padding: 10px;
+        }
+
+        #content {
+          margin: 0 auto;
+          padding: 90px 25px 0;
+        }
+
+        #header-box {
+          height: 170px;
+          top: 12%;
+          z-index: 2;
+        }
+
+        #header h1 {
+          font-size: 40pt;
+          margin: 80px 0;
+        }
+
+        .dot {
+          height: 90px;
+          width: 90px;
+          padding: 15px;
+        }
+
+        #assinatura ul {
+          display: block;
+          float: none;
+          list-style: none;
+          margin-bottom: 20px;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        main {
+          width: 95%;
+          padding: 10px;
+        }
+
+        #container {
+          margin: 140px auto 0;
+        }
+
+        #content {
+          margin: 0 auto;
+          padding: 130px 25px 0;
+        }
+
+        #header-box {
+          height: 160px;
+          top: 10%;
+          z-index: 2;
+        }
+
+        #header h1 {
+          font-size: 30pt;
+          margin: 100px 0;
+        }
+
+        .date {
+          position: absolute;
+          right: 35;
+          top: 70;
+          display: inline-block;
+          color: white;
+          font-family: 'Passion One';
+          font-size: 15pt;
+        }
+
+        .dot {
+          height: 90px;
+          width: 90px;
+          padding: 15px;
+        }
+
+        #assinatura ul {
+          display: block;
+          float: left;
+          list-style: none;
+          margin-bottom: 20px;
+        }
+      }
     </style>
   </head>
 
@@ -144,18 +237,18 @@
 
       <div id="container">        
         <div id="content">
-          <p>Prezados(as) Condôminos(as),</p>
+          <p style="text-align: left;">Prezados(as) Condôminos(as),</p>
           
-          <p>Esperamos que estejam todos bem.</p>
+          <p style="text-align: left;">Esperamos que estejam todos bem.</p>
 
-          <p>Este comunicado é para compartilhar notícia importante com vocês. Após anos de serviço dedicado, a
+          <p style="text-align: left;">Este comunicado é para compartilhar notícia importante com vocês. Após anos de serviço dedicado, a
           gerente Maria Cristina Suécia decidiu seguir novos caminhos em sua jornada profissional e, a partir
           deste mês, não estará mais à frente da gerência do condomínio.</p>
           
-          <p>Queremos expressar nossa sincera gratidão a Cristina por todas as suas contribuições ao longo dos anos
+          <p style="text-align: left;">Queremos expressar nossa sincera gratidão a Cristina por todas as suas contribuições ao longo dos anos
           e apresentar como nosso novo gerente o Sr. Rafael das Neves Carvalho.</p>
 
-          <p>Rafael tem MBA em Gestão Empresarial e especialização em Gestão de Condomínios. Já atuou como
+          <p style="text-align: left;">Rafael tem MBA em Gestão Empresarial e especialização em Gestão de Condomínios. Já atuou como
           gestor de área comercial de empresa de Tecnologia da Informação e soma mais de cinco anos como
           síndico profissional e gestor de condomínios. Com uma vasta experiência e profundo compromisso com
           o bem-estar de todos os residentes do Parque das Rosas, Rafael traz consigo novas ideias e uma energia
@@ -163,15 +256,15 @@
           trabalhará com a assistência de Teresa Gisele Arruda, que também já trabalhou com gestão em
           empresas do mercado e há mais de três anos atua na gestão de condomínios.</p>
 
-          <p>Estamos confiantes de que Rafael e sua equipe desempenharão suas funções com a dedicação e
+          <p style="text-align: left;">Estamos confiantes de que Rafael e sua equipe desempenharão suas funções com a dedicação e
           profissionalismo que caracterizam a nova gestão, garantindo assim a continuidade de um ambiente
           seguro, acolhedor e bem cuidado para todos nós.</p>
           
-          <p>Aproveitamos também para lembrar que estamos sempre abertos a sugestões e comentários de todos
+          <p style="text-align: left;">Aproveitamos também para lembrar que estamos sempre abertos a sugestões e comentários de todos
           os condôminos. A colaboração de cada um é fundamental para mantermos nossa comunidade unida e
           próspera.</p>
 
-          <p>Atenciosamente,</p>
+          <p style="text-align: left;">Atenciosamente,</p>
 
           <div id="assinatura">
             <ul>
