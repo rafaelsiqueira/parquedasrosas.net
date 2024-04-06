@@ -6,7 +6,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Passion+One');
       @import url('https://fonts.googleapis.com/css2?family=Montserrat');
 
-      html, body, p, h1 { padding: 0; margin: 0; }
+      html, body, p, h1, ul, li { padding: 0; margin: 0; }
 
       main {
         width: 885px;
@@ -67,7 +67,7 @@
 
         border-radius: 50%;
         display: inline-block;
-        background-image: url('images/icon-comunicado.png');
+        background-image: url('../images/icon-comunicado.png');
         background-size: 60%;
         background-repeat: no-repeat;
         background-position: center;
@@ -97,7 +97,7 @@
         height: 170px;
         background-color: rgb(246, 184, 4);
         
-        background-image: url('./images/dialogo-rodape.png');
+        background-image: url('../images/dialogo-rodape.png');
         background-size: 100%;
         background-repeat: no-repeat;
         position: relative;
@@ -113,6 +113,21 @@
         position: absolute;
         float: left;
         background-color: rgb(246, 184, 4);
+      }
+
+      #assinatura {
+        margin-top: 20px;
+      }
+
+      #assinatura ul {
+        display: block;
+        float: left;
+        list-style: none;
+        margin-right: 20px;
+      }
+
+      #assinatura ul li {
+        margin-top: 3px;
       }
     </style>
   </head>
@@ -157,6 +172,26 @@
           próspera.</p>
 
           <p>Atenciosamente,</p>
+
+          <div id="assinatura">
+            <ul>
+              <li>Pedro Teixeira - Síndico</li>
+              <li>Gabriel Paladino - Subsíndico</li>
+            </ul>
+            <ul>
+              <li>Henrique Bastos - Presidente do Conselho</li>
+              <li>Ghilherme Coelho - Conselheiro</li>
+              <li>Rodrigo Abinader - Conselheiro</li>
+              <li>Jó Rezende - Conselheiro</li>
+              <li>Rafael Siqueira - Conselheiro</li>
+              <li>Ricardo Portella - Conselheiro</li>
+            </ul>
+            <ul>
+              <li>Rafael Carvalho - Gestor</li>
+              <li>Gisele Arruda - Gerente</li>
+            </ul>
+          </div>
+          <br clear="left" />
         </div>        
       </div>
       <div id="rodape"></div>
